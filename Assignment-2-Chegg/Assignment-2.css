@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper{
+    height: 650px;
+    width: 100%;
+}
+header{
+    height: 72px;
+    width: 100%;
+    background-color: #fff;
+}
+.search-bar-wrapper{
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+}
+.banner{
+    height: 520px;
+    width: 100%;
+    background-image: url(./Assets/images/Banner.webp);
+    background-size: 100% 100%;
+    padding-top: 0.1px;
+    color: #fff;
+}
+.banner h3{
+    font-size: 15.5px;
+    margin-top: 142px;
+    margin-left: 177px;
+}
+.banner h1{
+    font-size: 38.5px;
+    margin-top: 27px;
+    margin-left: 177px;
+}
+.banner p{
+    font-size: 20.8px;
+    margin-top: 20px;
+    margin-left: 177px;
+    line-height: 35px;
+}
+.banner button{
+    height: 45px;
+    width: 154px;
+    font-size: 24.5px;
+    color: #fff;
+    background-color: #eb7100;
+    border: none;
+    border-radius: 30px;
+    margin-left: 177px;
+    margin-top: 17px;
+}
+.banner button:hover{
+    background-color: #e45800;
+    width: 160px;
+    transition: 0.5s;
+}
